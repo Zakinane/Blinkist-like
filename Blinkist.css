@@ -1,0 +1,218 @@
+body {
+  font-family: "Roboto";
+  min-height: 100%;
+}
+.zone{
+  padding: 64px 0px 64px 0px;
+}
+.grid {
+  align-items: baseline;
+  display: grid;
+  grid-template-rows: 72px auto auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "div"
+    "div"
+    "div"
+    "div"
+    "footer";
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 28px;
+  grid-area: header;
+}
+#Categories {
+  margin-left: 40px;
+}
+#Coaching {
+  margin-left: 500px;
+}
+#For-business {
+  white-space: nowrap;
+  margin-left: 40px;
+  height: 16px;
+}
+.header-content {
+  height: 16px;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes flexy {
+  0%,
+  50% {
+    color: gray;
+  }
+  51%,
+  100% {
+    color: black;
+  }
+}
+
+main {
+  padding: 0px 36px;
+  height: 516px;
+  grid-area: main;
+
+  margin: 0;
+  padding: 0;
+  background-image: url(pics/trucbleu.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#titre_haut {
+  margin: 64px 0px 24px;
+}
+#texte_haut {
+  position: absolute;
+  font-size: larger;
+  display: inline-block;
+  right: 60%;
+}
+#phone {
+  display: inline-block;
+  height: 550px;
+  top: 130px;
+  left: 50%;
+  position: absolute;
+}
+#start_your {
+  cursor: pointer;
+  background-color: #2cde80;
+  border-radius: 9px;
+  border: 2px;
+  padding: 11px 16px 13px 16px;
+  width: 260px;
+  height: 40px;
+}
+.understand {
+  padding: 88px 0px 48px 0px;
+}
+#understand {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+}
+.les_trois {
+  margin: 20px 100px 0px 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px 50px 100px;
+  justify-items: center;
+  text-align: center;
+}
+#textetrois {
+  font-size: larger;
+  padding: 0px 20px 0px 20px;
+}
+#bebebeet {
+  display: flex;
+  height: 400px;
+  margin: 0px 48px 0px 48px;
+  padding: 48px 0px 48px 0px;
+  justify-content: space-around;
+
+  color: gray;
+}
+#bebebe1 {
+  animation-name: flexy;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-delay: 0s;
+}
+#bebebe2 {
+  animation-name: flexy;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+#bebebe3 {
+  animation-name: flexy;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-delay: 4s;
+}
+#bebebe4 {
+  animation-name: flexy;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-delay: 6s;
+}
+#bebebe5 {
+  animation-name: flexy;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-delay: 8s;
+}
+#bebebe6 {
+  animation-name: flexy;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-delay: 10s;
+}
+
+.et {
+  width: 400px;
+  height: 400px;
+}
+#et {
+  font-size: larger;
+  align-items: center;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 70px 300px;
+  grid-template-rows: repeat(3, 1fr);
+  background-color: #f1f6f4;
+  width: 400px;
+  height: 300px;
+}
+#pourcent {
+  color: rgb(13, 98, 224);
+  font-weight: bold;
+  font-size: larger;
+}
+#proof {
+  display: flex;
+  color: grey;
+  font-size: small;
+}
+#phone2 {
+  display: inline-block;
+  height: 500px;
+  left: 17%;
+  position: absolute;
+}
+#comment-area{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#comment{
+  padding: 16px 16px 16px 16px;
+  margin-bottom: 32px;
+  background-color: #fff3d7;
+  width: 592px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: brown;
+}
