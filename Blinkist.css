@@ -2,7 +2,7 @@ body {
   font-family: "Roboto";
   min-height: 100%;
 }
-.zone{
+.zone {
   padding: 64px 0px 64px 0px;
 }
 .grid {
@@ -17,6 +17,10 @@ body {
     "div"
     "div"
     "footer";
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 
 header {
@@ -200,12 +204,12 @@ main {
   left: 17%;
   position: absolute;
 }
-#comment-area{
+#comment-area {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#comment{
+#comment {
   padding: 16px 16px 16px 16px;
   margin-bottom: 32px;
   background-color: #fff3d7;
