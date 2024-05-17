@@ -220,3 +220,24 @@ footer {
   grid-area: footer;
   background-color: brown;
 }
+#start_growing {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+#bleu {
+  padding: 28px 24px 56px 24px;
+  background-color: #d7e9ff;
+  align-content: center;
+  border-radius: 15px;
+}
+#carbleu {
+  display: grid;
+  gap: 30px;
+  justify-content: center;
+  grid-template-columns: 248px 248px 248px;
+  grid-template-rows: auto;
+}
+#bleu img {
+  width: 48px;
+}
